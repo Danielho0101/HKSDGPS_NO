@@ -1,0 +1,104 @@
+h2.green {
+    text-align: center;
+    color: green;
+    letter-spacing: 0.5cm;
+    font-size: 100px;
+  }
+  
+  h1{
+    font-size: 60px !important;
+  }
+  
+  .col {
+    border-right: 5px solid black;
+    color: red;
+  }
+  
+  .row {
+    background-color: rgb(243, 243, 166);
+  }
+  
+  .bgcolor {
+    background-color: rgb(243, 243, 166);
+  }
+  html {
+    background-color: rgb(243, 243, 166);
+  }
+  
+  .btnCSS {
+    border: 4px solid red;
+    border-radius: 15%;
+    color: white;
+    padding: 2.5rem;
+    margin: 10px;
+  }
+  
+  .vertical-orange {
+    position: fixed;
+    /* right:148px; */
+    right:148px;
+    top:200px;
+    /* top:0.875rem; */
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    background-color: orange;
+    color: white;
+    border: 5px solid red;
+    border-radius: 10%;
+    padding: 0.5rem;
+    margin-top: 5rem;
+    letter-spacing: 0.3cm;
+  }
+  
+  .vertical-purple {
+    position: fixed;
+    right:148px;
+    top:0px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    border: 5px solid rgb(145, 107, 242);
+    background-color: rgb(230, 204, 255);
+    color: purple;
+    border-radius: 10%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    letter-spacing: 0.3cm;
+  }
+  
+  .vertical-green {
+    position: fixed;
+    right:68px;
+    top:10px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: rgb(18, 141, 18);
+    letter-spacing: 0.4cm;
+    font-size: 4rem;
+  }
+  
+  .scale-up-center {
+      -webkit-animation: scale-up-center 1.5s cubic-bezier(0.190, 0.575, 0.565, 1.000) 5 alternate both;
+              animation: scale-up-center 1.5s cubic-bezier(0.190, 0.575, 0.565, 1.000) 5 alternate both;
+  }
+  
+  
+   @-webkit-keyframes scale-up-center {
+      0% {
+        -webkit-transform: scale(1.3);
+                transform: scale(1.3);
+      }
+      100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+      }
+    }
+    @keyframes scale-up-center {
+      0% {
+        -webkit-transform: scale(1.3);
+                transform: scale(1.3);
+      }
+      100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+      }
+    }
