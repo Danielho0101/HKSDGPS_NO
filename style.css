@@ -15,30 +15,43 @@ h2.green {
   }
   
   .row {
-    background-color: rgb(243, 243, 166);
-  }
+    /* background-color: rgb(243, 243, 166); */
+    border: 1px solid black; 
+    display: inline-flex;
+    /* left: 100rem;  */
+
+  } 
+
+  /* span{
+    display: inline-flexbox;
+  } */
   
   .bgcolor {
-    background-color: rgb(243, 243, 166);
+    /* background-color: rgb(243, 243, 166); */
   }
   html {
     background-color: rgb(243, 243, 166);
-  }
+    /* position: absolute;
+    top: 1%;
+    left: 2%; */
+
+  } 
   
   .btnCSS {
     border: 4px solid red;
     border-radius: 15%;
     color: white;
-    padding: 2.5rem;
-    margin: 10px;
+    /* padding: 2.5rem;
+    margin: 10px; */
+    height: 12rem;
+    width: 12rem;
+    margin: 0.45rem;
   }
   
   .vertical-orange {
     position: fixed;
-    /* right:148px; */
-    right:148px;
     top:200px;
-    /* top:0.875rem; */
+    left: 1250px;
     writing-mode: vertical-rl;
     text-orientation: upright;
     background-color: orange;
@@ -52,8 +65,8 @@ h2.green {
   
   .vertical-purple {
     position: fixed;
-    right:148px;
     top:0px;
+    left: 1250px;
     writing-mode: vertical-rl;
     text-orientation: upright;
     border: 5px solid rgb(145, 107, 242);
@@ -67,7 +80,7 @@ h2.green {
   
   .vertical-green {
     position: fixed;
-    right:68px;
+    left:1375px;
     top:10px;
     writing-mode: vertical-lr;
     text-orientation: upright;
@@ -104,6 +117,7 @@ h2.green {
     }
 
     .yearl{
-        /* display: inline-block; */
-        background-color: #000;
+        /* display: inline-flex; */
+        background-color: #ff0000 !important;
+        
     }
