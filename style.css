@@ -8,10 +8,6 @@
     color: red;
   }
   
-  .row {
-    /* border: 1px solid black;  */
-  } 
-
   .bgcolor {
     display: inline-block;
     align-items: center;
@@ -36,9 +32,9 @@
   .vertical-orange {
     position: fixed;
     top:250px;
-    left: 1500px;
+    left: 1470px;
     writing-mode: vertical-rl;
-    text-orientation: upright;
+    /* text-orientation: upright; */
     background-color: orange;
     color: white;
     border: 5px solid red;
@@ -53,9 +49,9 @@
   .vertical-purple {
     position: fixed;
     top:0px;
-    left: 1500px;
+    left: 1470px;
     writing-mode: vertical-rl;
-    text-orientation: upright;
+    /* text-orientation: upright; */
     border: 5px solid rgb(145, 107, 242);
     background-color: rgb(230, 204, 255);
     color: purple;
@@ -69,13 +65,13 @@
   
   .vertical-green {
     position: fixed;
-    left:1600px;
+    left:1570px;
     top:10px;
     writing-mode: vertical-lr;
     text-orientation: upright;
     color: rgb(18, 141, 18);
     letter-spacing: 0.4cm;
-    font-size: 100px;
+    font-size: 109px;
     z-index: 2;
   }
   
@@ -109,3 +105,55 @@
     .AllPage{
       margin-left: 9rem;
     }
+
+    .line1{
+      border-left: 6px solid black;
+      height: 912px;
+      position: fixed;
+      left: 372px;
+      top: 0;
+    }
+
+    .line2{
+      border-left: 6px solid black;
+      height: 912px;
+      position: fixed;
+      left: 598px;
+      top: 0;
+    }
+
+    .line3{
+      border-left: 6px solid black;
+      height: 912px;
+      position: fixed;
+      left: 824px;
+      top: 0;
+    }
+
+    .line4{
+      border-left: 6px solid black;
+      height: 912px;
+      position: fixed;
+      left: 1050px;
+      top: 0;
+    }
+
+    .line5{
+      border-left: 6px solid black;
+      height: 912px;
+      position: fixed;
+      left: 1276px;
+      top: 0;
+    }
+    
+
+    .line6{
+      border-left: 6px solid black;
+      height: 912px;
+      position: fixed;
+      left: 1502px;
+      top: 0;
+    }
+    
+
+
