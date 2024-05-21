@@ -8,7 +8,6 @@ btn1a.addEventListener("click", function onClick(){
     btn1a.style.background = "orange";
     btn1a.style.color = "white";
     btn1a.style.borderColor = "red";
-    btn1a.style.fontSize = "1000px";
     btn1a.classList.remove('scale-up-center');
 
 } else if( i1a%2 == !0){
