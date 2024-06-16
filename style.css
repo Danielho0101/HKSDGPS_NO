@@ -1,4 +1,14 @@
-  h1{
+ /* body{
+  height: 100%;
+  margin: 0;
+ } */
+ 
+ html {
+    background-color: rgb(243, 243, 166);
+    display: inline-block;
+  } 
+  
+ h1{
     font-size: 90px;
     margin: 0px;
   }
@@ -14,11 +24,7 @@
     text-align: center;
   }
 
-  html {
-    background-color: rgb(243, 243, 166);
-    display: inline-block;
-  } 
-  
+ 
   .btnCSS {
     border: 4px solid red;
     border-radius: 15%;
@@ -51,7 +57,6 @@
     top:0px;
     left: 1470px;
     writing-mode: vertical-rl;
-    /* text-orientation: upright; */
     border: 5px solid rgb(145, 107, 242);
     background-color: rgb(230, 204, 255);
     color: purple;
@@ -108,7 +113,8 @@
 
     .line1{
       border-left: 6px solid black;
-      height: 912px;
+      /* height: 912px; */
+      height: 100vh;
       position: fixed;
       left: 372px;
       top: 0;
@@ -116,7 +122,8 @@
 
     .line2{
       border-left: 6px solid black;
-      height: 912px;
+      /* height: 912px; */
+      height: 100vh;
       position: fixed;
       left: 598px;
       top: 0;
@@ -124,7 +131,8 @@
 
     .line3{
       border-left: 6px solid black;
-      height: 912px;
+      /* height: 912px; */
+      height: 100vh;
       position: fixed;
       left: 824px;
       top: 0;
@@ -132,7 +140,8 @@
 
     .line4{
       border-left: 6px solid black;
-      height: 912px;
+      /* height: 912px; */
+      height: 100vh;
       position: fixed;
       left: 1050px;
       top: 0;
@@ -140,7 +149,8 @@
 
     .line5{
       border-left: 6px solid black;
-      height: 912px;
+      /* height: 912px; */
+      height: 100vh;
       position: fixed;
       left: 1276px;
       top: 0;
@@ -149,11 +159,132 @@
 
     .line6{
       border-left: 6px solid black;
-      height: 912px;
+      /* height: 912px; */
+      height: 100vh;
       position: fixed;
       left: 1502px;
       top: 0;
     }
     
+    @media screen and (min-height: 915px) {
+      .AllPage{
+        margin-left: 3rem;
+        margin-top: 1vh;
+      }
 
+      .vertical-purple {
+        position: fixed;
+        top:8vh;
+        left: 1564px;
+        writing-mode: vertical-rl;
+        border: 5px solid rgb(145, 107, 242);
+        background-color: rgb(230, 204, 255);
+        color: purple;
+        border-radius: 10%;
+        padding: 0.5rem;
+        margin-top: 1rem;
+        letter-spacing: 0.3cm;
+        z-index: 2;
+        font-size: 75px;
+      }
+     
+      .vertical-orange {
+        position: fixed;
+        top:30vh;
+        left: 1564px;
+        writing-mode: vertical-rl;
+        background-color: orange;
+        color: white;
+        border: 5px solid red;
+        border-radius: 10%;
+        padding: 0.5rem;
+        margin-top: 5rem;
+        letter-spacing: 0.3cm;
+        z-index: 2;
+        font-size: 75px;
+      }
+    
+      .vertical-green {
+        position: fixed;
+        left:1664px;
+        top:9vh;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+        color: rgb(18, 141, 18);
+        letter-spacing: 0.4cm;
+        font-size: 109px;
+        z-index: 2;
+      }
+      
+      h1{
+        font-size: 150px;
+        margin: 0px;
+      }
+
+      .btnCSS {
+        border: 4px solid red;
+        border-radius: 15%;
+        color: white;
+        height: 14rem;
+        width: 14rem;
+        margin: 15px;
+        display: inline-block;
+      }
+
+      .line1{
+        border-left: 6px solid black;
+        /* height: 912px; */
+        height: 100vh;
+        position: fixed;
+        left: 308px;
+        top: 0;
+      }
+  
+      .line2{
+        border-left: 6px solid black;
+        /* height: 912px; */
+        height: 100vh;
+        position: fixed;
+        left: 566px;
+        top: 0;
+      }
+  
+      .line3{
+        border-left: 6px solid black;
+        /* height: 912px; */
+        height: 100vh;
+        position: fixed;
+        left: 824px;
+        top: 0;
+      }
+  
+      .line4{
+        border-left: 6px solid black;
+        /* height: 912px; */
+        height: 100vh;
+        position: fixed;
+        left: 1082px;
+        top: 0;
+      }
+  
+      .line5{
+        border-left: 6px solid black;
+        /* height: 912px; */
+        height: 100vh;
+        position: fixed;
+        left: 1340px;
+        top: 0;
+      }
+      
+  
+      .line6{
+        border-left: 6px solid black;
+        /* height: 912px; */
+        height: 100vh;
+        position: fixed;
+        left: 1603px;
+        top: 0;
+      }
+
+    }
 
